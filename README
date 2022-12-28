@@ -1,0 +1,26 @@
+This is a lottery ticket blockchain game
+
+Dependencies:
+1. nodejs
+    - brew install node
+2. truffle
+    - npm install -g truffle
+    - recommended to download Truffle for VS Code extension from
+      https://marketplace.visualstudio.com/items?itemName=trufflesuite-csi.truffle-vscode
+3. metamask
+    - install metamask extension on browser (chrome, firefox, brave, etc.)
+    - safari does not have the ability to use extensions
+4. Ganache
+    - download Ganache from https://trufflesuite.com/ganache/
+
+Running DAPP:
+truffle test (tests smart contracts)
+truffle compile (compiles smart contracts)
+truffle migrate (migrates smart contracts to blockchain)
+
+npm start (launches react in browser)
+    - make sure browser has metamask extension installed otherwise you won't be able to use it
+
+
+Building from scratch:
+https://trufflesuite.com/docs/truffle/quickstart/
